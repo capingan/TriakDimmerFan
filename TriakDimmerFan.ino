@@ -56,12 +56,12 @@ byte mac[] = { 0x90, 0xB2, 0xFB, 0x0D, 0x4E, 0x59 };
 IPAddress ip(192, 168, 0, 62);
 
 // Уставновить IP адресс MQTT брокера
-byte server[] = { 192, 168, 0, 44 };
+byte server[] = { 192, 168, X, X };
 
 // Уставновить ИмяКлиента, Логин и Пароль для подключения к MQTT брокеру
 const char* clientID = "Arduino_Dimmer";
-const char* mqtt_username = "openhabian";
-const char* mqtt_password = "zar01sh";
+const char* mqtt_username = "xxxxxxxxx";
+const char* mqtt_password = "xxxxxx";
 
 // Настройки топиков для получения команд с брокера
 const char* mqtt_Dimmer1 = "Dimmer/triac1";
